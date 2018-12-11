@@ -9,6 +9,7 @@ public class HelloWorld {
 
     @RequestMapping(value="/hello", method = RequestMethod.GET)
     public String index() {
+        System.out.println("######");
         return "hello world!";
     }
 }
