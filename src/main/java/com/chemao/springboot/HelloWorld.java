@@ -9,6 +9,7 @@ public class HelloWorld {
 
     @RequestMapping(value="/hello", method = RequestMethod.GET)
     public String index() {
+        System.out.println("11111111");
         System.out.println("######");
         System.out.println("####&&&####");
         System.out.println("@@@@@");
